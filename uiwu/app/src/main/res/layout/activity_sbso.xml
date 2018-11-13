@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_shape"
+        android:orientation="horizontal" >
+    </EditText>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/edt_search"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_marginLeft="12dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/style_home_pager_toolbar_search_view"
+        android:drawableLeft="@drawable/actionbar_search"
+        android:gravity="center_vertical"
+        android:hint="搜索"
+        android:paddingLeft="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffdebd"/>
+
+</FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <TextView
+            android:id="@+id/edt_search1"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/style_home_pager_toolbar_search_view"
+            android:drawableLeft="@drawable/actionbar_search"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:hint="搜索"
+            android:paddingLeft="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#ffdebd" />
+    </FrameLayout>
+
+
+
+</LinearLayout>
