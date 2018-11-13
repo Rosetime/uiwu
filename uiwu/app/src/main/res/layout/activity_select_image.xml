@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/select_tupian"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/actionbar_search"
+        android:scaleType="fitXY"/>
+
+    <Button
+        android:id="@+id/tijc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="提交"
+        android:textSize="40sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+
+</LinearLayout>
